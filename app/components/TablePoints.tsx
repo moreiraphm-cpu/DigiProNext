@@ -61,6 +61,10 @@ export default function RankingTable() {
                     </tbody>
                 </table>
             </div>
+            <div className="flex">
+                <button className="border-2 border-black bg-white rounded-lg px-2 py-1 mt-1 hover:bg-white/80"
+                ><Link href='/dashboard'>Voltar</Link></button>
+            </div>
         </div>
     );
 }
